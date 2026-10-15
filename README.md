@@ -3,6 +3,9 @@
 把 [Bifrost](https://github.com/maximhq/bifrost)（LLM 网关）的 Web 仪表盘界面汉化为**简体中文**的
 Tampermonkey 用户脚本。纯浏览器侧，只读、零外部依赖、**运行时零网络请求**。
 
+> **适配基准**：在 **Bifrost v2.3.0** 上逐页验证（84 个路由，另加标签页 / 下拉 / 弹窗 / 日历等交互态）。
+> 上游升级后若有漏译，欢迎提 issue，或在 `src/dict.json` 补词条后 `python build.py` 重新构建。
+
 | 英文原界面 | 汉化后 |
 |---|---|
 | ![英文原界面](docs/screenshots/login-en.png) | ![汉化后](docs/screenshots/login-zh.png) |
